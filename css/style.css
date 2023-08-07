@@ -94,7 +94,7 @@ header li a{
 header{
     flex-direction: column;
     gap: 1.5rem;
-    padding: 4rem;
+    padding: 5rem;
     margin-bottom: 4rem;
 }
 
@@ -145,7 +145,7 @@ form{
 .team{
     background-color: var(--clr-Light-Grayish-Blue);
     gap: 2rem;
-    padding: 4rem;
+    padding: 5rem;
 }
 
 .team a{
@@ -196,7 +196,7 @@ form{
 .early__Access{
     background-color: var(--clr-Desaturated-Blue);
     color: var(--clr-Light-Grayish-Blue);
-    padding: 4rem;
+    padding: 5rem;
     gap: 1.5rem;
     justify-content: space-between;
     line-height: 1.4;
@@ -232,7 +232,7 @@ h3{
 }
 
 footer{
-    padding: 4rem;
+    padding: 5rem;
     color: white;
     background-color: var(--clr-Very-Dark-Blue);
     flex-direction: column;

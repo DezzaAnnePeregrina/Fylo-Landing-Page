@@ -61,7 +61,7 @@ h2{
 
 p{
     line-height: 1.5;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-family: var(--Raleway);
 }
 
@@ -114,6 +114,10 @@ nav{
 
 form{
     gap: .8rem;
+}
+
+form input{
+    width: 50%;
 }
 
 .illustration{
@@ -218,27 +222,93 @@ h3{
     width: 50%;
 }
 
-
 footer{
-    padding: 3.5rem 2.5rem;
+    padding: 3.5rem 3rem;
     color: white;
     background-color: var(--clr-Very-Dark-Blue);
     flex-direction: column;
+    gap: 1.7rem;
+    font-weight: var(--HB-Weights);
+    font-family: var(--Raleway);
 }
 
-footer .logo img{
+footer .white__logo img{
     width: 155px;
     height: 45px;
 }
 
+.contact__about__socials{
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-right: 8rem;
+}
+
+.contact, .aboutUs, .contactUs{
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.aboutUs span, .contactUs span{
+    cursor: pointer;
+}
+
+.aboutUs span:hover{
+    color: var(--clr-Bright-Blue-hover);
+}
+
+.contactUs span:hover{
+    color: var(--clr-Bright-Blue-hover);
+}
+
+.contact div{
+    gap: 1rem;
+}
+
+.socials{
+    gap: 1rem;
+    justify-content: flex-start;
+}
+
+.socials div{
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: .5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials div:nth-child(1){
+    padding: .5rem .7rem;
+}
+
+.socials div:nth-child(3){
+    padding: .5rem .6rem;
+}
+
+.socials div:hover{
+    border: 1px solid var(--clr-Bright-Blue-hover);
+}
+
+.socials div svg:hover{
+    fill: var(--clr-Bright-Blue-hover);
+}
 
 
 @media(max-width:800px) {
+    .logo img{
+        width: 110px;
+    }
     .get__Started, .team{
         flex-direction: column-reverse;
         justify-content: center;
         text-align: center;
     }
+
+    .links{
+        gap: 1rem;
+    }
+
     .sign{
         align-items: center;
     }
@@ -251,6 +321,15 @@ footer .logo img{
 
     .remarks{
         align-items: center;
+    }
+
+    .remarks form{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .remarks form input{
+        height: 40px;
     }
 
     .early__Access{
@@ -278,8 +357,19 @@ footer .logo img{
         height: 40px;
         width: 80%;
     }
-    
+
     .start__Free .blue__Button{
         width: 80%;
+    }
+
+    .contact__about__socials{
+        flex-direction: column;
+        gap: 3.5rem;
+        padding-right: 0;
+    }
+
+    .socials{
+        gap: 1rem;
+        align-self: center;
     }
 }

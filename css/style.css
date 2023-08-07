@@ -65,6 +65,12 @@ p{
     font-family: var(--Raleway);
 }
 
+.invalid1, .invalid{
+    color: rgb(245, 74, 74);
+    text-align: left;
+    font-size: .75rem;
+}
+
 header li a{
     cursor: pointer;
     color: var(--clr-Very-Dark-Blue);
@@ -114,10 +120,13 @@ nav{
 
 form{
     gap: .8rem;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
-form input{
+.remarks input{
     width: 50%;
+    height: 40px;
 }
 
 .illustration{
@@ -214,7 +223,7 @@ h3{
 }
 
 .start__Free input{
-    height: 35px;
+    height: 40px;
     width: 80%;
 }
 
@@ -296,6 +305,13 @@ footer .white__logo img{
 
 
 @media(max-width:800px) {
+    body{
+        font-size: 13px;
+    }
+
+    header{
+        padding: 3rem 1.5rem;
+    }
     .logo img{
         width: 110px;
     }
@@ -330,9 +346,15 @@ footer .white__logo img{
 
     .remarks form input{
         height: 40px;
+        width: 100%;
+    }
+
+    .team{
+        padding: 3rem 1.5rem;
     }
 
     .early__Access{
+        padding: 3rem 1.5rem;
         flex-direction: column;
     }
 
@@ -351,6 +373,8 @@ footer .white__logo img{
     .start__Free{
         justify-content: center;
         align-items: center;
+        gap: .2rem;
+        width: 100%;
     }
 
     .start__Free input{
@@ -360,6 +384,10 @@ footer .white__logo img{
 
     .start__Free .blue__Button{
         width: 80%;
+    }
+
+    footer{
+        padding: 3rem 1.5rem;
     }
 
     .contact__about__socials{

@@ -11,8 +11,6 @@ This is a solution to the [Fylo landing page with two column layout challenge on
   - [Built with](#built-with)
   - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -24,12 +22,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](/images/screencapture-127-0-0-1-5500-index-html-2023-08-11-00_25_34.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/fylo-landing-page-with-two-column-layout-3jNFcEtjK_
+- Live Site URL: https://dezzaanne-fylo-landing-page.netlify.app/
 
 ### Built with
 
@@ -41,6 +39,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - https://dezzaanneperegrina.tech/
+- Frontend Mentor - https://www.frontendmentor.io/profile/DezzaAnnePeregrina
+- Twitter - https://twitter.com/DezzaPeregrina
